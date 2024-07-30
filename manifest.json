@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "YT Domain Redirector",
+  "version": "1.0",
+  "description": "Redirect YouTube URLs to a self-hosted platform",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.youtube.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  }
+}
